@@ -7,7 +7,8 @@
     android:background="#fff7fe"
     android:focusableInTouchMode="false"
     android:focusable="false"
-    android:gravity="center">
+    android:gravity="center"
+    android:clickable="true">
 
     <Button
         android:layout_width="wrap_content"
@@ -20,7 +21,8 @@
         android:padding="15dp"
         android:textSize="40dp"
         android:background="#010101"
-        android:textColor="#29ff08" />
+        android:textColor="#29ff08"
+        android:onClick="btn1Click" />
 
     <Button
         android:layout_width="wrap_content"
@@ -32,7 +34,8 @@
         android:background="#010101"
         android:textColor="#29ff08"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="btn2Click" />
 
     <Button
         android:layout_width="wrap_content"
@@ -145,8 +148,8 @@
         android:background="#010101"
         android:textColor="#29ff08"
         android:layout_below="@+id/button9"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9" />
 
     <Button
         android:layout_width="wrap_content"
@@ -172,6 +175,6 @@
         android:textColor="#29ff08"
         android:layout_below="@+id/button10"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="38dp" />
+        android:layout_marginTop="41dp" />
 </RelativeLayout>
 
