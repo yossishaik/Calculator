@@ -189,6 +189,6 @@
         android:layout_below="@+id/button10"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="41dp"
-        android:onClick="btn=Click" />
+        android:onClick="btn13Click" />
 </RelativeLayout>
 

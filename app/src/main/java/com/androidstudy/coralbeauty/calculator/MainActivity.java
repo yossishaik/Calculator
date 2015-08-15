@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btn10;
     private Button btn11;
     private  Button btn12;
+    private  Button btn13;
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         btn10=(Button) findViewById(R.id.button10);
         btn11=(Button) findViewById(R.id.button11);
         btn12=(Button) findViewById(R.id.button12);
+        btn13=(Button) findViewById(R.id.button13);
     }
 
     @Override
@@ -92,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
         Log.w("You Cliked: ", btn11.getText().toString());
     }
     public void btn12Click(View v) {Log.w("You Cliked: ", btn12.getText().toString());}
+    public void btn13Click(View v) {Log.w("You Cliked: ", btn13.getText().toString());}
 
 
 
