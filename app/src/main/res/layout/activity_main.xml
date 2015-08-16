@@ -190,5 +190,16 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="41dp"
         android:onClick="btn13Click" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:padding="1dp"
+        android:src="@drawable/dog"
+        android:onClick="btn14Click"
+        android:layout_alignTop="@+id/button13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
 

@@ -1,5 +1,6 @@
 package com.androidstudy.coralbeauty.calculator;
 
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -7,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btn11;
     private  Button btn12;
     private  Button btn13;
+    private ImageButton btn14;
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         btn11=(Button) findViewById(R.id.button11);
         btn12=(Button) findViewById(R.id.button12);
         btn13=(Button) findViewById(R.id.button13);
+        btn14=(ImageButton) findViewById (R.id.imageButton);
     }
 
     @Override
@@ -95,6 +99,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void btn12Click(View v) {Log.w("You Cliked: ", btn12.getText().toString());}
     public void btn13Click(View v) {Log.w("You Cliked: ", btn13.getText().toString());}
+    public void btn14Click(View v) {Log.w("You Cliked: ", btn14.toString().toString());}
+
 
 
 
